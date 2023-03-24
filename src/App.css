@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: #1c0c22;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  color: aliceblue;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flex{display: flex;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.justify-spacebtw {
+  justify-content: space-between;
+}
+.justify-evenly{
+  justify-content: space-evenly;
+}
+.align-center {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.borderbox {
+  box-sizing: border-box;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.m-20 {
+  margin: 20px;
+}
+.mlr-20 {
+  margin: 0 20px;
+}
+.mtb-20 {
+  margin: 20px 0;
+}
+.m-10 {
+  margin: 10px;
+}
+.mlr-10 {
+  margin: 0 10px;
+}
+.mtb-10 {
+  margin: 10px 0;
+}
+.m-5 {
+  margin: 5px;
+}
+.mlr-5 {
+  margin: 0 5px;
+}
+.mtb-5 {
+  margin: 5px 0;
+}
+.p-20 {
+  margin: 20px;
+}
+.plr-20 {
+  margin: 0 20px;
+}
+.ptb-20 {
+  margin: 20px 0;
+}
+.p-10 {
+  margin: 10px;
+}
+.plr-10 {
+  margin: 0 10px;
+}
+.ptb-10 {
+  margin: 10px 0;
+}
+.p-5 {
+  margin: 5px;
+}
+.plr-5 {
+  margin: 0 5px;
+}
+.ptb-5 {
+  margin: 5px 0;
 }
