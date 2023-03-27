@@ -1,0 +1,25 @@
+/*------------------------------GLOBAL STYLES------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+body {
+  /* width: 60%;
+  margin: auto; centers >>will evenly distribute the remaining 40% of the width between right side of element and left side */
+	background-image: url(../Images/MOODLY-2\ \(4\).jpg);
+  /* background-color: aqua; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* -webkit-box-shadow: 2px 5px 19px 4px rgba(0,0,0,0.37); 
+box-shadow: 2px 5px 19px 4px rgba(0,0,0,0.37); */
+
+/*the following properties are needed to keep the footer at the bottom of the page*/
+position: relative;
+min-height: 100vh;
+padding-bottom: 10vh;
+  }
+

@@ -1,4 +1,5 @@
 import './App.css';
+import Page1 from './components/Landing Page/Page1';
 import Header from './components/Header';
 import Body from './components/Body';
 import EraSelector from './components/ERA/EraSelector';
@@ -10,10 +11,11 @@ import Spotify from './components/Api/spotify';
 function App() {
   return (
     <div>
-    <Header />
+      <Page1 />
+    {/* <Header />
     <Body />
     <EraSelector />
-    <Spotify />
+    <Spotify /> */}
     </div>
   );
 }
