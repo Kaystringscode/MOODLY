@@ -1,8 +1,6 @@
 import './App.css';
-import Header from './components/Header';
-import Body from './components/Body';
-import EraSelector from './components/ERA/EraSelector';
 import Spotify from './components/Api/spotify';
+import Page1 from './components/Landing Page/Page1'
 // import Dropdown from './components/Dropdown /dropdown';
 
 
@@ -10,10 +8,7 @@ import Spotify from './components/Api/spotify';
 function App() {
   return (
     <div>
-    <Header />
-    <Body />
-    <EraSelector />
-    <Spotify />
+      <Page1 />
     </div>
   );
 }
