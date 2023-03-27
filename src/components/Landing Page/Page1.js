@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 import ButtonBase from '@mui/material/ButtonBase';
 import Typography from '@mui/material/Typography';
 import { fontFamily } from "@mui/system";
+import { spring } from "motion";
 
 
 
@@ -92,46 +93,21 @@ const ImageMarked = styled('span')(({ theme }) => ({
     return (
         
        <div>
-            <motion.div>
+            <motion.div
+            initial = {{y:-250}}
+            animate = {{y:-10}}
+            transition ={{delay: 0.5, type: "spring", stiffness: 120}}
+
+            
+            
+            >
                 
                 <h1 style={{fontFamily:"cursive",  fontSize: 60, fontWeight: 600, padding: '5px'  }}>
                     MOODLY
                 </h1>
             </motion.div>
 
-            
-
-             <Box sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 300, width: '100%', fontFamily: "cursive" }}>
-      {images.map((image) => (
-        <ImageButton
-          focusRipple
-          key={image.title}
-          style={{
-            width: image.width,
-          }} 
-        >
-          <ImageSrc style={{ backgroundImage: `url(${"../Images/MOODLY-2 (1).png"})` }} />
-          <ImageBackdrop className="MuiImageBackdrop-root" />
-          <Image>
-            <Typography
-              component="span"
-              variant="subtitle1"
-              color="inherit"
-              sx={{
-                position: 'relative',
-                p: 4,
-                pt: 1,
-                pb: (theme) => `calc(${theme.spacing(2)} + 14px)`,
-              }}
-            >
-              {image.title}
-              <ImageMarked className="MuiImageMarked-root" />
-            </Typography>
-          </Image>
-        </ImageButton>
-      ))}
-    </Box>
-              
+        
 
        </div>
     ); 
