@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} 
+
+ body {
+  min-width: 960px;
+ 
+} 
+
+.Quote {
+ min-height: 100vh;
+ display: flexbox;
+ justify-self: center;
+
+}
+
+#musicquote {
+width: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: auto;
+margin-top: 13%;
+}
+.card {
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(161, 20, 20);
+    padding: 3rem 5rem;
+    
+    
+
+} 
+
+#quotes {
+
+    padding-top: 1rem;
+    line-height: 150%;
+    font: 200;
+    
+}
+.expand{
+    width: 30rem;
+
+}
