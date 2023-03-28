@@ -4,12 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 
-} 
+}
 
- body {
+body {
   min-width: 960px;
  
-} 
+}
 
 .Quote {
  min-height: 100vh;
@@ -18,24 +18,25 @@
 
 }
 
-#musicquote {
-width: 80%;
+#sbq {
+width: 70%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 margin: auto;
-margin-top: 13%;
+margin-top: 5%;
 }
-.card {
+#sbq {
     justify-content: center;
     align-items: center; 
-    background-color: rgb(161, 20, 20);
+    background: rgb(161, 20, 20);
     padding: 3rem 5rem;
+    border-radius: 3px;
     
     
 
-} 
+}
 
 #quotes {
 
@@ -45,6 +46,6 @@ margin-top: 13%;
     
 }
 .expand{
-    width: 30rem;
+    width: 35rem;
 
 }
