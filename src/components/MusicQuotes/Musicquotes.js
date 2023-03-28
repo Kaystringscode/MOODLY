@@ -1,7 +1,7 @@
  import React, { useEffect } from "react";
  import { motion } from "framer-motion"
  import {useState} from "react"
- import css from "./musicquotes.css"
+ import css from "./Musicquotes.css"
  import axios from "axios";
 
   
@@ -52,7 +52,7 @@
             transition ={{delay: 0.5, type: "spring", stiffness: 150}}>
             <motion.div transition={{layout: {duration: 1.5, type:"spring", }}}
             layout onClick={() => setIsOpen(!isOpen)} className="card"
-            style={{borderRadius: "1rem", boxShadow: "0px 10px 30px rgba(255, 117, 71, 1)", backgroundColor: "#E9C89E"}}
+            style={{borderRadius: "1rem", boxShadow: "0px 10px 30px rgba(255, 117, 71, 1)", backgroundColor: "#ffffff"}}
             >
              <motion.h2 layout="position" style={{fontFamily: "sans-serif",fontSize: "40px"  }}>MY MOOD MY MUSIC</motion.h2>
                  { isOpen && (

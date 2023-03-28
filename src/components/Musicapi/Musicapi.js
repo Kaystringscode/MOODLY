@@ -152,22 +152,23 @@ function App() {
   </Container>
 
 
-  <div className='iplayer'>
-  <motion.div className="container"
-        style={{borderRadius: "1rem", boxShadow: "0px 10px 30px rgba(219, 52, 235)"}}>
+      <div className='iplayer'>
+        <motion.div className="container"
+           style={{borderRadius: "1rem", boxShadow: "0px 10px 30px rgba(219, 52, 235)"}}>
   
-          <div className="App" >
-            <PlayWidget
-            width={1300}
-            height={500}
-            uri={title}
-          
-            lightTheme={false}
-            showCoverArt={true}
-        />
+            <div className="App" >
+              <PlayWidget
+              width={1300}
+              height={500}
+              uri={title}
+              style={{ minHeight: '360px' }}
+              frameBorder="4"
+              lightTheme={false}
+              showCoverArt={true}
+              />
             </div>        
         </motion.div>
-  </div>
+      </div>
  
       
 

@@ -16,9 +16,12 @@ function SearchBar(props) {
     <div id="sbq"> 
       <form onSubmit={props.handleSubmit}>
           <input type="text" value={props.query} onChange={props.handleChange} />
-         <button type="submit" >Search</button>
+         <        button type="submit" >Search</button>
      </form>
-    
+     {/* function handleSubmit(event) {
+              event.preventDefault();
+     }
+     */}
     </div>
     </motion.div>
   );
