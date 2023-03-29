@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Moodly
+![](https://img.shields.io/badge/html-HTML5-orange?logo=html5)
+![](https://img.shields.io/badge/css-CSS3-%231572B6?logo=css3)
+![](https://img.shields.io/badge/JavaScript-lightgrey?logo=javascript)
+![](https://img.shields.io/badge/jQuery-0769AD?logo=jquery)
+![](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
+![](https://img.shields.io/github/license/senseilein/make-the-days-count)
+![](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=flat)
+![](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=flat)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## :triangular_flag_on_post: TABLE OF CONTENT
+- [Description](#-description)
+- [Usage](#-usage)
+- [Mock-up](#-mock-up)
+- [Technology used](#-technology-used)
+- [Installation](#-installation)
+- [Credits](#-credits)
+- [License](#-license)
 
-### `npm start`
+## :book: DESCRIPTION
+The main idea of this Project, called Moodly, is to make sure user is able to enhance or get in a mood they want. This project was useful in putting all our knowledges together as a group.  Beside the fact that we used our knowledges in Bootstrap, JavaScript, React, Node.js, Escalidraw, Whimsical we got to learn GitHub from the aspect of working in different branches, merging and resolving conflicts.
+
+This app works as a mood enhancer. The user inputs any one of the moods provided on the list, then the user is provided with series of playlists and genres that can help them to either relive their mood or enhance their mood.
+
+
+## :computer: USAGE
+When a user inputs any mood they are in or the mood they are trying to get in, the app provides a number of playlists that contain musics that are related to the chosen mood.
+
+![alt text](public\Screenshot1.png)
+
+
+![alt text](public\Screenshot2.png)
+
+### :speech_balloon: User story
+As a user
+I wake up feeling depressed, I go to my office where i will have to fake a smile. 1 of the things that make me smile is music but i don't know how to make a good playlist for myself. I want an application that's going to help me with music choices thats going to make me feel better every morning before i go to work. I can just listen to the playlist while getting ready for work and in my car. PS: I hate listening to the same songs all the time so i want an app that can create series of playlist.
+
+
+## :wrench: TECHNOLOGY USED
+- HTML, CSS & Bootstrap Framework
+- JavaScript and jQuery Library
+- Spotify API
+- React
+- Node.js
+
+### :bulb: What we’ve learnt
+- Improved knowledges that we already had
+- Learned new features and new ways of coding from our teammates
+- Got a better understanding how to work as a team
+- Got a better understanding how to work with different people who have different vision, suggestions, way of thinking
+- Learned a little bit more about GitHub, the workflow and how to work in new branches
+
+### :heavy_plus_sign: Suggestions for improvement
++ Add inspirational quotes as well as gifs.
++ Add a weekly to do list to plan things beyond one day.
++ Day and Night theme.
++ Set intervals for specific alerts (e.g. for to do items).
++ Using navigator.language to translate page based on user’s language.
+
+
+# user Instructions
+
+- run
+# `npm i`
+# `npm start`
+
+*You might need to degrade or upgrade some dependencies for the app to run*
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## :speech_balloon: CREDITS
+- This project was created as part of a coding assignment with [Trilogy Education Services](https://skillsforlife.edx.org/?utm_source=govuk)
+Collaborators:
+[Noah Ojo](https://github.com/Kaystringscode)
+[](https://github.com/senseilein)
+[](https://github.com/SashaK2609)
+[](https://github.com/Sam3Ved)
+[comment]: <> (List your collaborators, if any, with links to their GitHub profiles. // If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section. // If you followed tutorials, include links to those here as well.)
+## :scroll: LICENSE
+This repository is licensed under the MIT license.
