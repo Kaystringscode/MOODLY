@@ -1,3 +1,11 @@
+# Moodly
+![](https://img.shields.io/badge/html-HTML5-orange?logo=html5)
+![](https://img.shields.io/badge/css-CSS3-%231572B6?logo=css3)
+![](https://img.shields.io/badge/JavaScript-lightgrey?logo=javascript)
+![](https://img.shields.io/badge/jQuery-0769AD?logo=jquery)
+![](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
+![](https://img.shields.io/github/license/senseilein/make-the-days-count)
+
 ## :triangular_flag_on_post: TABLE OF CONTENT
 - [Description](#-description)
 - [Usage](#-usage)
@@ -11,7 +19,7 @@
 The main idea of this Project, called Moodly, is to make sure user is able to enhance or get in a mood they want. This project was useful in putting all our knowledges together as a group.  Beside the fact that we used our knowledges in Bootstrap, JavaScript, React, Node.js, Escalidraw, Whimsical we got to learn GitHub from the aspect of working in different branches, merging and resolving conflicts.
 
 This app works as a mood enhancer. The user inputs any one of the moods provided on the list, then the user is provided with series of playlists and genres that can help them to either relive their mood or enhance their mood.
-This app also has a feature that shows the user the musical events/concerts happening in their environment. These events shows based on the user's location or the artist they are currently listening to.
+
 
 ## :computer: USAGE
 When a user inputs any mood they are in or the mood they are trying to get in, the app provides a number of playlists that contain musics that are related to the chosen mood.
