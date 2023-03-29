@@ -147,13 +147,11 @@ function App() {
           md={3}
         >
           {moodPlist.map(moodPlist => {
-            // console.log(moodPlist)
-            const getplistID = () => {
+              const getplistID = () => {
               setShow(true);
               console.log(moodPlist.uri);
               setTitle(moodPlist.uri);
-              //  let newPlistId = "https://open.spotify.com/emb ed/playlist/" + [moodPlist.id]
-              // console.log([setTitle])
+             
             };
 
             return (
