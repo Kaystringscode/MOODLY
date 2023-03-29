@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   margin: auto;
+  position: sticky;
 }
 
 .App-logo {
@@ -36,4 +37,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.hidden{
+
+  display: none;
+}
+.iplayer {
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  align-items: baseline;
 }
