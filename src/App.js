@@ -3,6 +3,7 @@ import Page1 from './components/Landing Page/Page1';
 import Musicquote from './components/MusicQuotes/Musicquotes';
 import SearchBar from './components/search/SearchBar';
 import Musicapi from "./components/Musicapi/Musicapi"
+// import Submit from "./components/Submit"
 // import Dropdown from './components/Dropdown /dropdown';
 
 
@@ -12,8 +13,9 @@ function App() {
     <div>
       <Page1 />
       <Musicquote />
-      {/* <SearchBar /> */}
-      {/* <Musicapi /> */}
+      {/* <Submit /> */}
+      {/* <SearchBar />  */}
+       <Musicapi />
   
     </div>
   );

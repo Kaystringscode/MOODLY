@@ -39,6 +39,10 @@
   }
 }
 
+.hidden{
+
+  display: none;
+}
 .iplayer {
   display: flex;
   flex-direction: column;
