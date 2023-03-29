@@ -41,8 +41,10 @@ I wake up feeling depressed, I go to my office where i will have to fake a smile
 - HTML, CSS & Bootstrap Framework
 - JavaScript and jQuery Library
 - Spotify API
+- Quotable API
 - React
 - Node.js
+- Local storage
 
 ### :bulb: What we’ve learnt
 - Improved knowledges that we already had
@@ -51,13 +53,10 @@ I wake up feeling depressed, I go to my office where i will have to fake a smile
 - Got a better understanding how to work with different people who have different vision, suggestions, way of thinking
 - Learned a little bit more about GitHub, the workflow and how to work in new branches
 
-### :heavy_plus_sign: Suggestions for improvement
-+ Add inspirational quotes as well as gifs.
-+ Add a weekly to do list to plan things beyond one day.
-+ Day and Night theme.
-+ Set intervals for specific alerts (e.g. for to do items).
-+ Using navigator.language to translate page based on user’s language.
-
+### Suggestions for improvement
++ Using API that generates specific music mood 
++ Merging the music API to music concert API that share concert details
++ Using Api that generate music videos for better user experience
 
 # user Instructions
 
