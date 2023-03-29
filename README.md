@@ -22,14 +22,13 @@
 ## :book: DESCRIPTION
 The main idea of this Project, called Moodly, is to make sure user is able to enhance or get in a mood they want. This project was useful in putting all our knowledges together as a group.  Beside the fact that we used our knowledges in Bootstrap, JavaScript, React, Node.js, Escalidraw, Whimsical we got to learn GitHub from the aspect of working in different branches, merging and resolving conflicts.
 
-This app works as a mood enhancer. The user inputs any one of the moods provided on the list, then the user is provided with series of playlists and genres that can help them to either relive their mood or enhance their mood.
+This app works as a mood enhancer using music as a tool. The user inputs any one of the moods provided on the list, then the user is provided with series of playlists and genres that can help them to either relive their mood or enhance their mood.
 
 
 ## :computer: USAGE
 When a user inputs any mood they are in or the mood they are trying to get in, the app provides a number of playlists that contain musics that are related to the chosen mood.
 
 ![alt text](public\Screenshot1.png)
-
 
 ![alt text](public\Screenshot2.png)
 
@@ -74,11 +73,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## :speech_balloon: CREDITS
 - This project was created as part of a coding assignment with [Trilogy Education Services](https://skillsforlife.edx.org/?utm_source=govuk)
-Collaborators:
+
+## Collaborators:
+
 [Noah Ojo](https://github.com/Kaystringscode)
-[](https://github.com/senseilein)
-[](https://github.com/SashaK2609)
-[](https://github.com/Sam3Ved)
-[comment]: <> (List your collaborators, if any, with links to their GitHub profiles. // If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section. // If you followed tutorials, include links to those here as well.)
+[Amdlat Jinadu](https://github.com/amdalat1000000)
+[Popoola Mary](https://github.com/olamaryse)
+[Femi Adekunle](https://github.com/phemyx1)
+
 ## :scroll: LICENSE
 This repository is licensed under the MIT license.
