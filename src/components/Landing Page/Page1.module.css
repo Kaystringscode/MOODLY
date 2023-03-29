@@ -1,0 +1,23 @@
+/*------------------------------GLOBAL STYLES------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+body {
+
+	background-image: url('../Images/MOODLY\ main.jpg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+/*the following properties are needed to keep the footer at the bottom of the page*/
+position: relative;
+min-height: 100vh;
+padding-bottom: 10vh;
+  }
+
