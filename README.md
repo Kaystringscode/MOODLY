@@ -5,6 +5,10 @@
 ![](https://img.shields.io/badge/jQuery-0769AD?logo=jquery)
 ![](https://img.shields.io/badge/Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
 ![](https://img.shields.io/github/license/senseilein/make-the-days-count)
+![](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=flat)
+![](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=flat)
+
+
 
 ## :triangular_flag_on_post: TABLE OF CONTENT
 - [Description](#-description)
@@ -23,11 +27,11 @@ This app works as a mood enhancer. The user inputs any one of the moods provided
 
 ## :computer: USAGE
 When a user inputs any mood they are in or the mood they are trying to get in, the app provides a number of playlists that contain musics that are related to the chosen mood.
-![alt text](public\Screenshot 1.png)
+
+![alt text](public\Screenshot1.png)
 
 
-![alt text](assets/images/GIF-section.png)
-
+![alt text](public\Screenshot2.png)
 
 ### :speech_balloon: User story
 As a user
