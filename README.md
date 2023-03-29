@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# Mood Music Detector/Player
+
+## An app that provides you series of songs from several artists depending on the mood you input
+
+# Intro
+This app works as a mood enhancer. The user inputs any one of the moods provided on the list, then the user is provided with series of playlists and genres that can help them to either relive their mood or enhance their mood.
+This app also has a feature that shows the user the musical events/concerts happening in their environment. These events shows based on the user's location or the artist they are currently listening to.
+
+APIs used
+-Spotify
+-Ticket Master
+
+Framework
+-React
+-Node.js
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Images
+
+
+
+
+
 
 ## Available Scripts
 
