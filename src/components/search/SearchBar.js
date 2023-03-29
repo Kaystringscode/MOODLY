@@ -1,7 +1,7 @@
 import "./Searchbar.css"
 import React from 'react';
 import { motion } from "framer-motion"
-// import {Search} from "../Musicapi/Musicapi"
+
 
 
 function SearchBar(props) {
@@ -18,10 +18,7 @@ function SearchBar(props) {
           <input type="text" value={props.query} onChange={props.handleChange} />
          <        button type="submit" >Search</button>
      </form>
-     {/* function handleSubmit(event) {
-              event.preventDefault();
-     }
-     */}
+    
     </div>
     </motion.div>
   );
