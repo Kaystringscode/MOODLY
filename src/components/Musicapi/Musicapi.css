@@ -27,12 +27,12 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(245, 237, 237);
 }
 
 /*adds colour the app link*/
 .App-link {
-  color: #61dafb;
+  color: #087a99;
 }
 
 /*use of keyframes to add animation to the app logo*/

@@ -7,11 +7,11 @@
 /*sets the formating for the font on the body of the webpage*/
 body {
   /* background: #1c0c22; */
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'lato', sans-serif;
   font-size: 14px;
-  color: aliceblue;
-  font-family: 'Nunito Sans', sans-serif;
-font-family: 'Permanent Marker', cursive;
+
+  color: rgb(214, 223, 230);
+
 }
 
 /*creates flexi display for the webpage or app via the "flex" class*/
