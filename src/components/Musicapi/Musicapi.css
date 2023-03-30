@@ -58,3 +58,16 @@
 .container{
   align-items: baseline;
 }
+.Newbutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.myButton{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(255, 191, 191);
+}

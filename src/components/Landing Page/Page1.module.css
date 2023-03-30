@@ -11,11 +11,11 @@
 /*adds background image from the images folder*/
 body {
 
-	background-image: url('../Images/MOODLY-HOME_SCREEN.png');
+	/* background-image: url('../Images/MOODLY-HOME_SCREEN.png'); */
   /* background-size: contain; */
 
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
 
 
 /*the following properties are needed to keep the footer at the bottom of the page*/

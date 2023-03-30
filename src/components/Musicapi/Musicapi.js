@@ -104,9 +104,13 @@ function App() {
     <div className="page-background">
       {storedSearches.map(item => {
         return (
-          <button key={item} onClick={()=>search(item)}>
+          <div className="Newbutton">
+          <button className="myButton" key={item} onClick={()=>search(item)} >
+      
+       
             {item}
           </button>
+          </div>
         );
       })}
       <Container>
@@ -190,7 +194,7 @@ function App() {
           {/* creating the html for the spotify iplayer and providing css styling */}
           <div className={!show ? "hidden" : "App"}>
             <PlayWidget
-              width={1300}
+              width={1100}
               height={500}
               uri={title}
               style={{ minHeight: "360px" }}
