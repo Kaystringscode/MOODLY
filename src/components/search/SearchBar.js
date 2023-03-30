@@ -1,12 +1,12 @@
 import "./Searchbar.css"
 import React from 'react';
 import { motion } from "framer-motion"
-// import {Search} from "../Musicapi/Musicapi"
 
 
+//search bar function that a query can be submitted with// 
 function SearchBar(props) {
 
-
+//stylises the search bar by adding properties such as, naming the submit button "Search" motion/animation and shadows//
   return (
   <motion.div 
             initial = {{y:-750}}

@@ -1,15 +1,22 @@
+/*sets the general margins for the webpage*/
 *{
   margin: 0;
   padding: 0;
 }
+
+/*sets the formating for the font on the body of the webpage*/
 body {
   /* background: #1c0c22; */
   font-family: 'Nunito Sans', sans-serif;
   font-size: 14px;
   color: aliceblue;
 }
+
+/*creates flexi display for the webpage or app via the "flex" class*/
 .flex{display: flex;
 }
+
+/*sets spacing and positioning of content on webpage to certain classes*/
 .justify-spacebtw {
   justify-content: space-between;
 }
@@ -19,60 +26,79 @@ body {
 .align-center {
   align-items: center;
 }
+/*creates a border with the "border-box" class*/
 .borderbox {
   box-sizing: border-box;
 }
+/*creates a margin of 20px with the class*/
 .m-20 {
   margin: 20px;
 }
+/*creates a margin of 20px with the class*/
 .mlr-20 {
   margin: 0 20px;
 }
+/*creates a margin of 20px with the class*/
 .mtb-20 {
   margin: 20px 0;
 }
+/*creates a margin of 10px with the class*/
 .m-10 {
   margin: 10px;
 }
+/*creates a margin of 10px with the class*/
 .mlr-10 {
   margin: 0 10px;
 }
+/*creates a margin of 10px with the class*/
 .mtb-10 {
   margin: 10px 0;
 }
+/*creates a margin of 5px with the class*/
 .m-5 {
   margin: 5px;
 }
+/*creates a margin of 5px with the class*/
 .mlr-5 {
   margin: 0 5px;
 }
+/*creates a margin of 5px with the class*/
 .mtb-5 {
   margin: 5px 0;
 }
+/*creates a margin of 20px with the class*/
 .p-20 {
   margin: 20px;
 }
+/*creates a margin of 20px with the class*/
 .plr-20 {
   margin: 0 20px;
 }
+/*creates a margin of 20px with the class*/
 .ptb-20 {
   margin: 20px 0;
 }
+/*creates a margin of 10px with the class*/
 .p-10 {
   margin: 10px;
 }
+/*creates a margin of 10px on the class*/
 .plr-10 {
   margin: 0 10px;
 }
+/*creates a margin of 10px with the class*/
 .ptb-10 {
   margin: 10px 0;
 }
+/*creates a margin of 5px with the class*/
 .p-5 {
   margin: 5px;
 }
+/*creates a margin of 5px with the class*/
 .plr-5 {
   margin: 0 5px;
 }
+/*creates a margin of 5px with the class*/
 .ptb-5 {
   margin: 5px 0;
 }

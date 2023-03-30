@@ -16,9 +16,11 @@ import { motion } from "framer-motion";
 import PlayWidget from "react-spotify-widgets";
 import "../Submit/Submit";
 
+//created variables that store the spotify API keys//
 const client_id = "1e76a724d6db40b4bb2b127638620e92";
 const client_secret = "f791c6b679b9427eb385a0ea33e44c92";
 
+//App fuction that assigns states to variables//
 function App() {
   const [searchInput, setSearchInput] = useState("");
   const [accessToken, setAccessToken] = useState("");
@@ -27,11 +29,11 @@ function App() {
   const [title, setTitle] = useState("");
   const [show, setShow] = useState(null);
   const [storedSearches, setStoredSearches] = useState([]);
-
+//useEffect passes stored mood input results into local storage
   useEffect(() => {
     setStoredSearches(JSON.parse(localStorage.getItem("moods")) || []);
   }, []);
-
+//useEffect creates object and fetches data from the API//
   useEffect(() => {
     var authParameters = {
       method: "POST",
@@ -53,7 +55,7 @@ function App() {
       .then(result => result.json())
       .then(data => setAccessToken(data.access_token));
   }, []);
-
+//useEffect that stores search input into local storage and console logs "useEffect"//
   useEffect(
     () => {
       if (searchInput.length > 0) {
@@ -96,12 +98,8 @@ function App() {
         setmoodPlist([...apiresJ]);
       });
   }
-  // console.log("playlist moods" + moodPlist)
 
-  // function Hello() {
-  //   search();
-  // }
-
+// 2 on click functions of the button it takes the search mood and storres it in an item and places it in local storage with animation attributes//
   return (
     <div className="page-background">
       {storedSearches.map(item => {
@@ -127,7 +125,7 @@ function App() {
                   console.log("pressed enter");
                   search(searchInput);
                 }
-              }}
+              }}//onChange event  handles changes and sets the value of the target of the setSearchInput//
               onChange={event => setSearchInput(event.target.value)}
             />
             <button onClick={()=>search(searchInput)} fontSize={15}>
@@ -136,7 +134,7 @@ function App() {
           </InputGroup>
         </motion.div>
       </Container>
-
+{/* creating the html for the spotify iplayer and providing css styling */}
       <Container>
         <Row
           className=" row-cols-3  mx-auto g-3"
@@ -145,7 +143,8 @@ function App() {
           xs={1}
           lg={3}
           md={3}
-        >
+        >  
+        {/* creating the html for the spotify iplayer and providing css styling */}
           {moodPlist.map(moodPlist => {
             // console.log(moodPlist)
             const getplistID = () => {
@@ -163,6 +162,7 @@ function App() {
                   boxShadow: "4px 1px 30px rgba(219, 52, 235)"
                 }}
               >
+                {/* creating the html for the spotify iplayer and providing css styling */}
                 <Card>
                   <Card.Img src={moodPlist.images[0].url} />
                   <Card.Body border="primary">
@@ -189,6 +189,7 @@ function App() {
             boxShadow: "0px 10px 30px rgba(219, 52, 235)"
           }}
         >
+          {/* creating the html for the spotify iplayer and providing css styling */}
           <div className={!show ? "hidden" : "App"}>
             <PlayWidget
               width={1300}

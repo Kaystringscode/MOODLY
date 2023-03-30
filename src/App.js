@@ -7,7 +7,7 @@ import Musicapi from "./components/Musicapi/Musicapi"
 // import Dropdown from './components/Dropdown /dropdown';
 
 
-
+//general function and layout of the Moodly app//
 function App() {
   return (
     <div>
