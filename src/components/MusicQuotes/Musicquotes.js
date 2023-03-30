@@ -1,7 +1,7 @@
  import React, { useEffect } from "react";
  import { motion } from "framer-motion"
  import {useState} from "react"
- import css from "./musicquotes.css"
+ import css from "./Musicquotes.css"
  import axios from "axios";
 
   

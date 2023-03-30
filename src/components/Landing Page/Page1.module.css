@@ -4,12 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-family: 'lato-bold', Geneva, Verdana, sans-serif;
   }
   
 body {
 
-	background-image: url('../Images/MOODLY\ main.jpg');
+	background-image: url('../Images/MOODLY-HOME_SCREEN.png');
+  /* background-size: contain; */
 
   background-size: cover;
   background-repeat: no-repeat;
