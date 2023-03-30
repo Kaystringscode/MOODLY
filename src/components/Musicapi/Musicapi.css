@@ -1,20 +1,24 @@
+/*adds margin and postitioning to tags within musicapi.js that have a "App" class*/
 .App {
   text-align: center;
   margin: auto;
   position: sticky;
 }
 
+/*adds height with no pointer events to tags within musicapi.js that have an  "App-logo" class**/
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/*media query to animate app logo */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/*adds height, display flex font size and colour to the header of the app*/
 .App-header {
   /* background-color: #282c34; */
   min-height: 100vh;
@@ -26,10 +30,12 @@
   color: white;
 }
 
+/*adds colour the app link*/
 .App-link {
   color: #61dafb;
 }
 
+/*use of keyframes to add animation to the app logo*/
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -38,16 +44,17 @@
     transform: rotate(360deg);
   }
 }
-
+/*hides tags with a "hidden" class*/
 .hidden{
 
   display: none;
 }
+/*adds flexibility to the iplayer*/
 .iplayer {
   display: flex;
   flex-direction: column;
 }
-
+/*positions tags with a "container" class*/
 .container{
   align-items: baseline;
 }
