@@ -60,14 +60,10 @@ I wake up feeling depressed, I go to my office where i will have to fake a smile
 
 # user Instructions
 
-- run
-# `npm i`
-# `npm start`
 
-*You might need to degrade or upgrade some dependencies for the app to run*
+Click on the Link Below to load moodly in your brower
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://lucky-tulumba-fcee3b.netlify.app
 
 
 ## :speech_balloon: CREDITS
