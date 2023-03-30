@@ -1,23 +1,23 @@
-
+/* adds margin and borders to the search bar*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-
+/*creates a minimum width for the body of the text*/
 body {
   min-width: 960px;
  
 }
-
+/*adds minimum height, flexibility and positions the compponent with the "Quote" class*/
 .Quote {
  min-height: 100vh;
  display: flexbox;
  justify-self: center;
 
 }
-
+/*adds flex display, width, margins and aligns and centralises the component that has a class ID called "sbq"*/
 #sbq {
 width: 70%;
 display: flex;
@@ -27,6 +27,7 @@ align-items: center;
 margin: auto;
 margin-top: 5%;
 }
+/*adds background colour, padding and border-radius and centralises the component that has a class ID called "sbq"*/
 #sbq {
     justify-content: center;
     align-items: center; 
@@ -37,7 +38,7 @@ margin-top: 5%;
     
 
 }
-
+/*adds padding height and a font to the component that has a class ID called "quotes"*/
 #quotes {
 
     padding-top: 1rem;
@@ -45,6 +46,7 @@ margin-top: 5%;
     font: 200;
     
 }
+/*expands searchbar.js file component with the class "expand" */
 .expand{
     width: 35rem;
 

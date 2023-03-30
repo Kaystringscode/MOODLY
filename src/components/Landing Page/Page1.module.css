@@ -1,4 +1,5 @@
 /*------------------------------GLOBAL STYLES------------------------------*/
+/*sets the margin, padding, fonts and border to entire webpage*/
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
     
     font-family: 'lato-bold', Geneva, Verdana, sans-serif;
   }
-  
+/*adds background image from the images folder*/
 body {
 
 	background-image: url('../Images/MOODLY-HOME_SCREEN.png');

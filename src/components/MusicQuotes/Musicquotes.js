@@ -5,12 +5,12 @@
  import axios from "axios";
 
   
-
+//function provides a quote that coincides with mood input submitted in the search bar//
  function Musicquotes() {
-
+//usestate to update or change quote//
      const [quote, setQuote] = useState("")
      const [author, setAuthor] = useState("")
-
+//function that gets quote and author from API//
      const quotesAPI = async  () => {
         let quotesList = [];
         try {
@@ -42,7 +42,7 @@
     
 
 
-
+//returns animation and click function//
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="Container" id="musicquote" >
@@ -52,7 +52,7 @@
             transition ={{delay: 0.5, type: "spring", stiffness: 150}}>
             <motion.div transition={{layout: {duration: 1.5, type:"spring", }}}
             layout onClick={() => setIsOpen(!isOpen)} className="card"
-            style={{borderRadius: "1rem", boxShadow: "0px 10px 30px rgba(255, 117, 71, 1)", backgroundColor: "#E9C89E"}}
+            style={{borderRadius: "1rem", boxShadow: "0px 10px 30px rgba(255, 117, 71, 1)", backgroundColor: "#ffffff"}}
             >
              <motion.h2 layout="position" style={{fontFamily: "sans-serif",fontSize: "40px"  }}>MY MOOD MY MUSIC</motion.h2>
                  { isOpen && (
