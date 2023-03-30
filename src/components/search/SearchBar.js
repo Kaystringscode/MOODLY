@@ -3,6 +3,7 @@ import React from 'react';
 import { motion } from "framer-motion"
 
 
+
 //search bar function that a query can be submitted with// 
 function SearchBar(props) {
 
@@ -18,10 +19,7 @@ function SearchBar(props) {
           <input type="text" value={props.query} onChange={props.handleChange} />
          <        button type="submit" >Search</button>
      </form>
-     {/* function handleSubmit(event) {
-              event.preventDefault();
-     }
-     */}
+    
     </div>
     </motion.div>
   );

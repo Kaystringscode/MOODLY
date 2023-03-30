@@ -1,24 +1,17 @@
 // import './App.css';
-import Page1 from './components/Landing Page/Page1';
-import Musicquote from './components/MusicQuotes/Musicquotes';
-import SearchBar from './components/search/SearchBar';
-import Musicapi from "./components/Musicapi/Musicapi"
-// import Submit from "./components/Submit"
-// import Dropdown from './components/Dropdown /dropdown';
 
+import Page1 from "./components/Landing Page/Page1";
+import Musicquote from "./components/MusicQuotes/Musicquotes";
+import Musicapi from "./components/Musicapi/Musicapi";
 
-//general function and layout of the Moodly app//
 function App() {
   return (
     <div>
       <Page1 />
       <Musicquote />
-      {/* <Submit /> */}
-      {/* <SearchBar />  */}
-       <Musicapi />
-  
+      <Musicapi />
     </div>
   );
 }
- 
+
 export default App;
