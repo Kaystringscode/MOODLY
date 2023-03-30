@@ -5,12 +5,12 @@
  import axios from "axios";
 
   
-
+//function provides a quote that coincides with mood input submitted in the search bar//
  function Musicquotes() {
-
+//usestate to update or change quote//
      const [quote, setQuote] = useState("")
      const [author, setAuthor] = useState("")
-
+//function that gets quote and author from API//
      const quotesAPI = async  () => {
         let quotesList = [];
         try {
@@ -42,7 +42,7 @@
     
 
 
-
+//returns animation and click function//
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="Container" id="musicquote" >

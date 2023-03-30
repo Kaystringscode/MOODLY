@@ -1,23 +1,23 @@
-
+/*sets margin and padding and border*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 } 
-
+/*adds a minmum width to the body of the code*/
  body {
   min-width: 960px;
  
 } 
-
+/*adds height dislay flex and position to the "Quote" class*/
 .Quote {
  min-height: 100vh;
  display: flexbox;
  justify-self: center;
 
 }
-
+/*adds width, positioning and margins to the compenent with the "musicquote" class ID*/
 #musicquote {
 width: 80%;
 display: flex;
@@ -27,16 +27,19 @@ align-items: center;
 margin: auto;
 margin-top: 13%;
 }
+/*adds padding, positioning and background colour to the compenent with a "card" class*/
 .card {
     justify-content: center;
     align-items: center; 
-    background-color: rgb(56, 36, 36);
+
+    background-color: rgb(134, 7, 67);
+
     padding: 3rem 5rem;
     
     
 
 } 
-
+/*adds height font and padding to the Musicquote.js tags that have a class ID called "quotes"*/
 #quotes {
 
     padding-top: 1rem;
@@ -44,6 +47,7 @@ margin-top: 13%;
     font: 200;
     
 }
+/*expands the width of the Musicquotes.js tags with an "expand" class*/
 .expand{
     width: 30rem;
 

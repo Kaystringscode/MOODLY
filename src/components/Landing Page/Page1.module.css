@@ -1,18 +1,21 @@
 /*------------------------------GLOBAL STYLES------------------------------*/
+/*sets the margin, padding, fonts and border to entire webpage*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-family: 'lato-bold', Geneva, Verdana, sans-serif;
   }
-  
+/*adds background image from the images folder*/
 body {
 
-	background-image: url('../Images/MOODLY\ main.jpg');
+	/* background-image: url('../Images/MOODLY-HOME_SCREEN.png'); */
+  /* background-size: contain; */
 
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
 
 
 /*the following properties are needed to keep the footer at the bottom of the page*/
