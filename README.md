@@ -20,48 +20,51 @@
 - [License](#-license)
 
 ## :book: DESCRIPTION
-The main idea of this Project, called Moodly, is to make sure user is able to enhance or get in a mood they want. This project was useful in putting all our knowledges together as a group.  Beside the fact that we used our knowledges in Bootstrap, JavaScript, React, Node.js, Escalidraw, Whimsical we got to learn GitHub from the aspect of working in different branches, merging and resolving conflicts.
+The main concept behind this Project (Moodly) is to enable our users to enhance or create a desired mood. This project helped us to combine our knowledge to crate an effective solution. We used our understanding of Bootstrap, JavaScript, React, Node.js, Escalidraw, Whimsical sometimes working in different branches in pairs to merge and resolve conflicts.
 
-This app works as a mood enhancer using music as a tool. The user inputs any one of the moods provided on the list, then the user is provided with series of playlists and genres that can help them to either relive their mood or enhance their mood.
+
+This app works as a mood enhancer by using music as a therapeutic tool. The user inputs any one of the moods provided on the list, then the user is provided with a series of playlists and genres that can help them to either relive a mood, create a mood or enhance their mood.
+
 
 
 ## :computer: USAGE
-When a user inputs any mood they are in or the mood they are trying to get in, the app provides a number of playlists that contain musics that are related to the chosen mood.
+The user inputs their current or desired mood, then the app provides a number of music playlists related to that mood.
 
 ![alt text](./public/Screenshot1.png)
 
 ![alt text](./public/Screenshot2.png)
 
 ### :speech_balloon: User story
-As a user
-I wake up feeling depressed, I go to my office where i will have to fake a smile. 1 of the things that make me smile is music but i don't know how to make a good playlist for myself. I want an application that's going to help me with music choices thats going to make me feel better every morning before i go to work. I can just listen to the playlist while getting ready for work and in my car. PS: I hate listening to the same songs all the time so i want an app that can create series of playlist.
+I wake up feeling depressed, I go to my office where I will have to fake a smile. One of the things that makes me happy is music but I don't know how to make a good playlist for myself. I want an application that's going to provide intuitive music choices that will make me feel better every morning before I go to work. I want to listen to the playlist whilst getting ready for work and driving in my car. PS: I hate listening to the same songs all the time so I want an app that can create a series of playlists automatically.
+
 
 
 ## :wrench: TECHNOLOGY USED
 - HTML, CSS & Bootstrap Framework
-- JavaScript and jQuery Library
-- Spotify API
-- Quotable API
-- React
-- Node.js
-- Local storage
+- JavaScript & jQuery Library
+- Spotify API & Quotable API
+- React-Spotify-Widget
+- React & Node.js
+- MUI, Framer, Framer-motion, Motion, Axios, Bootstrap for React
+
 
 ### :bulb: What we’ve learnt
-- Improved knowledges that we already had
-- Learned new features and new ways of coding from our teammates
-- Got a better understanding how to work as a team
-- Got a better understanding how to work with different people who have different vision, suggestions, way of thinking
-- Learned a little bit more about GitHub, the workflow and how to work in new branches
+- Learning new features and new ways of coding from our teammates
+- Working as a team remotely (agile methods) and brainstorming for efficient programming
+- Working together to incorporate more than 2 technologies
+- Deploying a responsive website that functions as intended
+
+
 
 ### Suggestions for improvement
-+ Using API that generates specific music mood 
-+ Merging the music API to music concert API that share concert details
-+ Using Api that generate music videos for better user experience
++ Using an API that generates or streams a series of music artists according to a selected mood and providing information on their upcoming events
++ Merging the music API with a music concert API that shares concert details
++ Using an API that generates music videos for a better user experience
 
 # user Instructions
 
 
-Click on the Link Below to load moodly in your brower
+Click on the link below to load Moodly in your browser
 
 https://lucky-tulumba-fcee3b.netlify.app
 
